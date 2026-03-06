@@ -12,11 +12,11 @@
 ## 4.
 для розгортання базових модулів, що потрібні для створення сервера `express` в терміналі потрібно виконати команду(за необхідності перелік пакетів можна змінити або доповнити):
 ```bash
-npm init -y && npm i express mongoose cors dotenv http-errors celebrate bcrypt &&  npm i nodemon -D
+npm init -y && npm i express mongoose cors dotenv http-errors celebrate bcrypt cookie-parser helmet &&  npm i nodemon -D
 ``` 
 
 ## 5.
 для наповнення базової структури потрібно в терміналі викликати команду:
 ```bash
-mkdir src && cd src && mkdir controllers constants db middleware models routes services utils validations && touch controllers/index.js constants/index.js db/connectToMongDB.js middleware/errorHandler.js middleware/notFoundHandler.js models/index.js routes/index.js services/index.js utils/index.js validations/index.js server.js && cd .. && .env && .env.example && readme.md
+mkdir src && cd src && mkdir controllers constants db middleware models routes services utils validations && touch controllers/index.js constants/index.js db/connectToMongoDB.js middleware/errorHandler.js middleware/notFoundHandler.js models/index.js routes/index.js services/index.js utils/index.js validations/index.js server.js && cd .. && touch .env .env.example readme.md
 ```
