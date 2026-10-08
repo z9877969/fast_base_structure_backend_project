@@ -18,5 +18,5 @@ npm init -y && npm i express mongoose cors dotenv http-errors celebrate bcrypt c
 ## 5.
 для наповнення базової структури потрібно в терміналі викликати команду:
 ```bash
-mkdir src && cd src && mkdir controllers constants db middleware models routes services utils validations && touch controllers/index.js constants/index.js db/connectToMongoDB.js middleware/errorHandler.js middleware/notFoundHandler.js models/index.js routes/index.js services/index.js utils/index.js validations/index.js server.js && cd .. && touch .env .env.example readme.md
+mkdir src && cd src && mkdir controllers constants db middlewares models routes services utils validations && touch controllers/index.js constants/index.js db/connectToMongoDB.js middlewares/errorHandler.js middlewares/notFoundHandler.js middlewares/index.js models/index.js routes/index.js services/index.js utils/index.js validations/index.js server.js && cd .. && touch .env .env.example readme.md
 ```
